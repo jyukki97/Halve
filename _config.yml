@@ -64,4 +64,5 @@ gems:
 include: [_pages]
 exclude: [_group]
 
-disqus-shortname: jyukki97
+# Disqus
+discus-identifier: jyukki97 # add your discus identifier
