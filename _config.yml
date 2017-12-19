@@ -63,3 +63,5 @@ gems:
 # Exclude list
 include: [_pages]
 exclude: [_group]
+
+disqus-shortname: jyukki97
