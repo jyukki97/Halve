@@ -33,16 +33,15 @@ layout: compress
       <a title="projects" class="projects-menu-icon">
         <span></span>
       </a>
+	{% if page.comments %}{
+	{% include disqus.html %}
+	}{% endif %}
       <div class="inner-post content">
         <div class="date-highlight">{% if page.date %}{{ page.date | date: '%d %b %Y' }}{% else %}&#x2756;{% endif %}</div>
         {{ content }}
         <br>
 	{% include share.html %}
         {% include page-pagination.html %}
-
-	{% if page.comments %}{
-	{% include disqus.html %}
-	}{% endif %}
 	 </div>
     </div>
     {% include scripts.html %}
