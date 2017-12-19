@@ -33,9 +33,7 @@ layout: compress
     <div class="content">
       <div class="about-info">
         {{ content }}
-	{% if page.comments %}{
-		{% include disqus.html %}
-	}{% endif %}
+	{% include disqus.html %}
       </div>
     </div>
   </div>
