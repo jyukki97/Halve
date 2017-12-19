@@ -66,3 +66,4 @@ exclude: [_group]
 
 # Disqus
 discus-identifier: jyukki97 # add your discus identifier
+disqus_shortname: jyukki97
