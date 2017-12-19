@@ -65,5 +65,6 @@ include: [_pages]
 exclude: [_group]
 
 # Disqus
-discus-identifier: jyukki97 # add your discus identifier
+discus-identifier: jyukki97
 disqus_shortname: jyukki97
+disqus : jyukki97
