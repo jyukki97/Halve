@@ -39,12 +39,12 @@ layout: compress
         <br>
 	{% include share.html %}
         {% include page-pagination.html %}
+	{% if page.comments %}
+	{% include disqus.html %}
+	{% endif %}
 	 </div>
     </div>
     {% include scripts.html %}
     {% include overlay.html %}
 </body>
 </html>
-	{% if page.comments %}
-	{% include disqus.html %}
-	{% endif %}
